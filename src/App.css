@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  height: 100vh;
+  /* border: solid 3px blue; */
+}
+
+.counter-container,
+.btn-container {
+  /* border: solid 3px blue; */
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  height: 50%;
+}
+
+.Dislikes {
+  color: red;
+}
+.Likes {
+  color: green;
+}
+span {
+  color: black;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: rgb(255, 229, 186);
+}
+button:hover {
+  color: white;
+  background-color: rgb(233, 170, 170);
+}
+.hero {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
